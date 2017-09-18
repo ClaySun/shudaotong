@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>农联云商</title>
+		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/mycss.css" />
+		<!--滚动banner-->
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<!--滚动banner-->
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/myscript.js" ></script>
+		<!--滚动banner-->
+		<script type="text/javascript" src="js/swiper.min.js" ></script>
+		<!--滚动banner-->
+	</head>
+	<body>
+		<!--header-->
+		<div class="header">
+			<div class="top_info">
+				<div class="container clearfix">
+					<div class="top_l">
+						<span><a href="login.html">登录</a>|<a href="register.html">注册</a></span>
+						欢迎访问-农联云商
+					</div>
+					<ul class="top_r clearfix">
+						<li>
+							<a href="buyer.html">我的平台</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="seller.html">卖家中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="account-zijin.html">账户管理</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="cjwt.html">帮助中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="#">我的提醒<i class="xia"></i></a>
+							<div class="tixing">
+								<a href="seller.html">卖家提醒</a>
+								<a href="buyer.html">买家提醒</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom_info clearfix">
+				<h1 class="logo_img"><a href="index.html"><img src="images/logo.png" title="云纺城" alt="云纺城"/></a></h1>
+				<div class="search">
+					<div class="search_box">
+						<i class="search_icon"></i>
+						<input type="text" class="search_input"/>
+						<input type="button" class="search_btn" value="搜 索"/>
+					</div>
+					<!--<p>
+						<em>热门搜索：</em> 全棉&nbsp;T/C混纺&nbsp;CVC混纺&nbsp;棉涤/涤棉交织&nbsp;棉锦/锦棉交织
+					</p>-->
+				</div>
+				<div class="cartDiv">
+					<p>
+						客服电话：400-xxxx-xxx
+					</p>
+					<a href="gouwuche.html" class="cart clearfix">购物车<img class="fr" src="images/about_four.png"><em style="margin-right: 10px;" class="fr">(0)</em></a>
+					<!--<p class="gary">
+						交易时间： 8:30-16:30
+					</p>-->
+				</div>
+			</div>
+		</div>	
+		<!----------上部结束！----------->	
+		<div class="nav">
+			<dl class="nav-content">
+				<dt><span><a href="#">全部></a></span>特色大全</dt>
+				<dd style="display:block; background: #296f1f;"><a href="index.html">首页</a></dd>
+				<dd><a href="sp_list.html">一县一品</a></dd>
+				<dd><a href="goods-list.html">商城</a></dd>
+				<dd><a href="#">供应链金融</a></dd>
+				<dd><a href="#">物流</a></dd>
+				<div class="clearfix"></div>
+			</dl>
+		</div>
+	<div class="cedao_zong">	
+		<div class="hc_lnav jslist">
+	<div class="allbtn">
+	<!--	<h2><a href="#"><strong>&nbsp;</strong>全部商品分类<i>&nbsp;</i></a></h2>-->
+		<ul style="width:200px" class="jspop box">
+			<li class=a1>
+				<div class=tx><a href="#"><i>&nbsp;</i>肉禽蛋品</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="#">土鸡蛋</a>
+						<a href="#">腊肠</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="#">肉禽蛋品</a></h3>
+						<dl>
+							<dt>蛋品类</dt>
+							<dd>
+								<a class="ui-link" href="#">土鸡蛋</a>
+								<a class="ui-link"  href="#">其他蛋品</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>活禽类</dt>
+							<dd>
+								<a class="ui-link" href="">农家土鸡</a> 
+								<a class="ui-link"  href="">农家土鸭</a>
+								<a class="ui-link" href="">野禽类</a>
+								<a class="ui-link"  href="">飞禽类</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>猪牛羊肉</dt>
+							<dd>
+								<a class="ui-link" href="">四川猪肉</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>腌腊制品</dt>
+							<dd>
+								<a class="ui-link" href="">腊肉</a> 
+								<a class="ui-link" href="">腊肠</a>
+							</dd>
+						</dl>
+				</div>
+			</li>
+			<li class=a2>
+				<div class=tx><a href=""><i>&nbsp;</i>生鲜果蔬</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">花菜</a> 
+						<a href="">菌菇</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">生鲜果蔬</a></h3>
+						<dl>
+							<dt>蔬菜</dt>
+							<dd>
+								<a class="#" href="" >花菜类   </a>
+								<a class="#" href="">茄果类</a> 
+								<a class="#" href="">叶菜类</a> 
+								<a class="#" href="">根茎类 </a>
+								<a class="#" href="">豆角类 </a>
+								<a class="#" href="">瓜类</a> 
+								<a class="#" href="">香辛·葱姜</a> 
+								<a class="#" href="">菌菇类</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>水果</dt>
+							<dd>
+								<a class="ui-link" href="" >四川水果</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>水产海鲜</dt>
+							<dd>
+								<a class="ui-link" href="" >四川水果</a>
+							</dd>
+						</dl>
+				</div>
+			</li>
+			<li class=a3>
+				<div class=tx><a href=""><i>&nbsp;</i>精选茶具</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="" >功夫茶具</a> 
+						<a href="">个人杯</a> 
+						<a href="">茶宠</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">精选茶具</a></h3>
+						<dl>
+							<dt>陶瓷</dt>
+							<dd>
+								<a class="ui-link" href="">茶叶罐</a>
+								<a class="ui-link"  href="">功夫茶具</a> 
+								<a class="ui-link" href="" >茶壶</a>
+								<a class="ui-link"  href="">茶宠</a>
+								<a class="ui-link" href=""  >茶杯</a>
+								<a class="ui-link"  href="">茶具礼盒</a> 
+							</dd>
+						</dl>
+					
+					<dl>
+						<dt>品牌</dt>
+						<dd>
+							<a  href="">恒越</a>
+							<a  href="">卓越</a>
+							<a   href="">国尊陶瓷</a> 
+							<a  href="">宏远达</a>
+							<a href="">福万利</a>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li class=a4>
+				<div class=tx><a href=""><i>&nbsp;</i>可口茶食</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">橄榄</a>
+						<a   href="">冰糖杨梅</a>
+						<a  href="">酸甜梅</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">可口茶食</a></h3>
+						<dl>
+							<dt>干果</dt>
+							<dd>
+								<a class="ui-link" href="">杏仁</a>
+								<a class="ui-link"   href="">瓜子</a>
+								<a  class="un ui-link" href="">开心果</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>零食</dt>
+							<dd>
+								<a class="ui-link"  href="">水晶柠檬片</a>
+								<a class="ui-link"  href="">方块酥</a> 
+								<a class="ui-link" href="javascript:;">凤梨酥</a>
+								<a  class="ui-link" href="">燕麦巧克力</a>
+							</dd>
+						</dl>
+					
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>	
+
+		<!--banner-->
+		<div class="banner">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide slide_background">
+						<a href=""><img class="img-responsive" src="./images/banner1.jpg"></a>
+					</div>
+					<div class="swiper-slide slide_background">
+						<a href=""><img class="img-responsive" src="./images/banner2.jpg"></a>
+					</div>
+					<div class="swiper-slide slide_background">
+						<a href=""><img class="img-responsive" src="./images/banner1.jpg"></a>
+					</div>
+				</div>
+				<!-- Add Pagination -->
+				<div class="swiper-pagination fenye-page"></div>
+				<div class="swiper-button-prev swiper-button-white"></div>
+				<div class="swiper-button-next swiper-button-white"></div>
+			</div>
+		</div>
+		<!--banner-->
+
+</div>
+<div style="clear: both;"></div>
+<!---------banner上部结束！---------->
+<div class="dadise">
+  <div class="new-guan body-center">
+  	<!---------最新开馆-------->
+  	<div class="new-xinguan">
+  		<div class="head">
+  			<span><a href="sp_list.html">更多>></a></span><h2>一县一品&nbsp;&nbsp;|<em>发现未知特色</em></h2>
+  		</div>
+  		<div class="liebao-bg">
+  		    <ul class="liebiao-xg">
+  			   <li><a href="sp_xx.html">
+  			   	<dl>
+  			   		<dt><img src="images/tu1.jpg" alt=""/></dt>
+  			   		<dd><i class="logo-ico1">店铺名称：</i>正品轩</dd>
+  			   		<dd><i class="logo-ico2">主销产品：</i>干果，零食</dd>
+  			   	</dl>
+  			   	</a></li>
+  			   	<li><a href="sp_xx.html">
+  			   	<dl>
+  			   		<dt><img src="images/tu1.jpg" alt=""/></dt>
+  			   		<dd><i class="logo-ico1">店铺名称：</i>正品轩</dd>
+  			   		<dd><i class="logo-ico2">主销产品：</i>干果，零食</dd>
+  			   	</dl>
+  			   	</a></li>
+  			   	<li><a href="sp_xx.html">
+  			   	<dl>
+  			   		<dt><img src="images/tu1.jpg" alt=""/></dt>
+  			   		<dd><i class="logo-ico1">店铺名称：</i>正品轩</dd>
+  			   		<dd><i class="logo-ico2">主销产品：</i>干果，零食</dd>
+  			   	</dl>
+  			   	</a></li>
+  			   	<li><a href="sp_xx.html">
+  			   	<dl>
+  			   		<dt><img src="images/tu1.jpg" alt=""/></dt>
+  			   		<dd><i class="logo-ico1">店铺名称：</i>正品轩</dd>
+  			   		<dd><i class="logo-ico2">主销产品：</i>干果，零食</dd>
+  			   	</dl>
+  			   	</a></li>
+  			   	<li><a href="sp_xx.html">
+  			   	<dl>
+  			   		<dt><img src="images/tu1.jpg" alt=""/></dt>
+  			   		<dd><i class="logo-ico1">店铺名称：</i>正品轩</dd>
+  			   		<dd><i class="logo-ico2">主销产品：</i>干果，零食</dd>
+  			   	</dl>
+  			   	</a></li>
+  			   	
+  		    </ul>
+  		    <div style="clear: both;"></div>
+  		</div>
+  	</div>
+  	<!---------1楼层开始---------->
+  	<div class="new-xinguan">
+  		<div class="head1">
+  			<span><a href="goods-list.html">更多>></a></span><h2>生鲜果蔬&nbsp;&nbsp;|</h2>
+  			<div class="biao1"><a href="goods-detail.html" class="biao2">麻辣牛肉干</a><a href="goods-detail.html" class="biao2">吐鲁番葡萄干</a><a href="goods-detail.html" class="biao2">新疆核桃</a></div>
+  		</div>
+  		<div class="liebao-bg1">
+  		    <ul class="liebiao-xg1">
+  			   <li><a href="goods-detail.html">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1-1.jpg" alt=""/>
+  			   			<p class="title1">麻辣牛肉干</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>30.00</span></p>
+  			   			<p class="old"><s>￥35.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   	<div style="clear: both;"></div>
+  		    </ul>
+  		    <div style="clear: both;"></div>
+  		</div>
+  	</div>
+  	<!--------2F开始-------->
+    <div class="new-xinguan">
+  		<div class="head1">
+  			<span><a href="goods-list.html">更多>></a></span><h2>特产土货&nbsp;&nbsp;|</h2>
+  			<div class="biao1"><a href="#" class="biao2">生鲜果蔬</a><a href="#" class="biao2">生鲜果蔬</a><a href="#" class="biao2">生鲜果蔬</a></div>
+  		</div>
+  		<div class="liebao-bg1">
+  		    <ul class="liebiao-xg1">
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu2-1.jpg" alt=""/>
+  			   			<p class="title1">攀枝花芒果</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   	<div style="clear: both;"></div>
+  		    </ul>
+  		    <div style="clear: both;"></div>
+  		</div>
+  	</div>
+    <!--------3F开始-------->
+    <div class="new-xinguan">
+  		<div class="head1">
+  			<span><a href="goods-list.html">更多>></a></span><h2>五谷杂粮&nbsp;&nbsp;|</h2>
+  			<div class="biao1"><a href="#" class="biao2">生鲜果蔬</a><a href="#" class="biao2">生鲜果蔬</a><a href="#" class="biao2">生鲜果蔬</a></div>
+  		</div>
+  		<div class="liebao-bg1">
+  		    <ul class="liebiao-xg1">
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu3-1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   <li><a href="#">
+  			   	<dl>
+  			   		<dt>
+  			   			<img src="images/tu1.jpg" alt=""/>
+  			   			<p class="title1">良种橄榄</p>
+  			   		</dt>
+  			   		<dd class="pro-left">
+  			   			<p class="now">￥<span>20.00</span></p>
+  			   			<p class="old"><s>￥30.00</s></p></dd>
+  			   		<dd class="pro-right">已售<i>0</i>件</dd>
+  			   		<div style="clear: both;"></div>
+  			   	</dl>
+  			   	</a></li>
+  			   	<div style="clear: both;"></div>
+  		    </ul>
+  		    <div style="clear: both;"></div>
+  		</div>
+  	</div>
+  <!-----------热门城市---------->
+  <div class="new-xinguan">
+  		<div class="head">
+  			<span><a href="#">更多>></a></span><h2>商铺专题&nbsp;&nbsp;|<em>发现未知的城市特色</em></h2>
+  		</div>
+  		<div class="liebao-bg3">
+  		    <ul class="liebiao-xg3">
+  			   <li>
+  			   	 <div class="tv_hot fl"> 
+                    <a href="#" class="avatar" target="_blank" title="#">
+			             <img src="images/tu4-1.jpg" alt="#">
+	                </a> 
+                </div>
+               </li>
+  			   	<li>
+  			   	  <div class="tv_hot fl"> 
+                    <a href="#" class="avatar" target="_blank" title="#">
+			             <img src="images/tu4-1.jpg" alt="#">
+	                </a> 
+                   </div>
+  			   	</li>
+  			   	<li>
+  			   	  <div class="tv_hot fl"> 
+                    <a href="#" class="avatar" target="_blank" title="#">
+			             <img src="images/tu4-1.jpg" alt="#">
+	                </a> 
+                   </div>
+  			   	</li>
+  			   	<li>
+  			   	  <div class="tv_hot fl"> 
+                    <a href="#" class="avatar" target="_blank" title="#">
+			             <img src="images/tu4-1.jpg" alt="#">
+	                </a> 
+                   </div>
+  			   	</li>
+  			   	<li>
+  			   	  <div class="tv_hot fl"> 
+                    <a href="#" class="avatar" target="_blank" title="#">
+			             <img src="images/tu4-1.jpg" alt="#">
+	                </a> 
+                   </div>
+  			   	</li>
+  			   	
+  		    </ul>
+  		    <div style="clear: both;"></div>
+  		</div>
+  	</div>
+  	<!-------结束-------->
+  </div>
+</div>  
+
+<!--footer上面的-->
+		<div class="foot_box">
+			<div class="foot_box1">
+				<div class="foot_box1_all">
+					<ul class="foot_box1_ul">
+						<li>
+							<img src="images/foot1.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot2.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot3.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot_box2">
+				<div class="foot_box2_left fl">
+					<dl>
+						<dt>
+							平台规则
+						</dt>
+						<dd>
+							<a href="">购买规则</a>
+						</dd>
+						<dd>
+							<a href="">积分细则
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							操作演示
+						</dt>
+						<dd>
+							<a href="">我要买</a>
+						</dd>
+						<dd>
+							<a href="">我要卖</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							加入我们
+						</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">人才招聘</a>
+						</dd>
+						<dd>
+							<a href="">联系我们</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							常见问题
+						</dt>
+						<dd>
+							<a href="">如何成为平台会员</a>
+						</dd>
+						<dd>
+							<a href="">如何成为商家</a>
+						</dd>
+						<dd>
+							<a href="">如何修改密码</a>
+						</dd>
+						<dd>
+							<a href="">进入帮助中心</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="foot_box2_right fr">
+					<div class="kefu fl">
+						<h2>客服电话：</h2>
+						<br />
+						<span>400-877-5151</span>
+						<br />
+						<a class="mt10 qq_a" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=换成你的qq号码&site=qq&menu=yes"><img border="0" src="images/QQ.jpg" /></a>
+					</div>
+					<div class="weixin_pic fr">
+						<img src="images/erweima.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="footer_all">
+				<ul class="yq_link">
+					<li>
+						<a href="">关于我们</a>
+					</li>
+					<li>
+						<a href="">网站公告</a>
+					</li>
+					<li>
+						<a href="">产品服务</a>
+					</li>
+					<li>
+						<a href="">商家入驻</a>
+					</li>
+					<li>
+						<a href="">交易流程</a>
+					</li>
+					<li>
+						<a href="">人才招聘</a>
+					</li>
+					<li>
+						<a href="">联系我们</a>
+					</li>
+					<li>
+						<a href="">友情链接</a>
+					</li>
+				</ul>
+				<p>
+					Copyright © 2016 NiPic.com All Rights Reserved　版权所有·农联云商
+				</p>
+				<p>
+					农联云商是网络服务平台方，若您发现您的权利被侵害，请发起知识产权投诉，copyright@nipic.com
+				</p>
+				<p><img src="images/foot_bg.jpg">
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

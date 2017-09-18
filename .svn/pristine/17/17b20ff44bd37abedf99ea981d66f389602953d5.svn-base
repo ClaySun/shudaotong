@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>农联云商资源详情</title>
+		<link rel="stylesheet" href="./css/header_footer.css" />
+		<link rel="stylesheet" href="./css/style2.css" />
+		<link rel="stylesheet" href="css/mycss.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/iconfont.css" />
+		<script type="text/javascript" src="./js/jquery.js" ></script>
+		<script type="text/javascript" src="./js/myscript.js" ></script>
+	</head>
+	<body>
+<!--header-->
+		<div class="header">
+			<div class="top_info">
+				<div class="container clearfix">
+					<div class="top_l font12">
+						<span><a href="login.html">登录</a>|<a href="register.html">注册</a></span>
+						欢迎访问-农联云商
+					</div>
+					<ul class="top_r clearfix">
+						<li>
+							<a href="buyer.html">我的平台</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="seller.html">卖家中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="account-zijin.html">账户管理</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="cjwt.html">帮助中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="#">我的提醒<i class="xia"></i></a>
+							<div class="tixing">
+								<a href="seller.html">卖家提醒</a>
+								<a href="buyer.html">买家提醒</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom_info clearfix">
+				<h1 class="logo_img"><a href="index.html"><img src="images/logo.png" title="云纺城" alt="云纺城"/></a></h1>
+				<div class="search">
+					<div class="search_box">
+						<i class="search_icon"></i>
+						<input type="text" class="search_input"/>
+						<input type="button" class="search_btn" value="搜 索"/>
+					</div>
+					<!--<p>
+						<em>热门搜索：</em> 全棉&nbsp;T/C混纺&nbsp;CVC混纺&nbsp;棉涤/涤棉交织&nbsp;棉锦/锦棉交织
+					</p>-->
+				</div>
+				<div class="cartDiv">
+					<p>
+						客服电话：400-xxxx-xxx
+					</p>
+					<a href="gouwuche.html" class="cart clearfix">购物车<img class="fr" src="images/about_four.png"><em style="margin-right: 10px; color: #fff;" class="fr">(0)</em></a>
+					<!--<p class="gary">
+						交易时间： 8:30-16:30
+					</p>-->
+				</div>
+			</div>
+		</div>	
+		<!----------上部结束！----------->	
+		<div class="nav">
+			<dl class="nav-content">
+				<dd><a href="index.html">首页</a></dd>
+				<dd><a href="sp_list.html">一县一品</a></dd>
+				<dd  style="display:block; background: #296f1f;"><a href="goods-list.html">商城</a></dd>
+				<dd><a href="#">供应链金融</a></dd>
+				<dd><a href="#">物流</a></dd>
+				<div class="clearfix"></div>
+			</dl>
+		</div>
+	<!------------下部内容------------->
+		<div class="clearfix"></div>
+		<!--header end-->
+		
+		<div class="content-details">
+			<div class="display-area float_left">
+				<img src="img/goods02.jpg" class="details-img-big" />
+				<table cellspacing="0" class="details-img-small">
+					<tr>
+						<td height="80" width="80" align="center" class="border-fff cell-style">
+							<img src="img/small01.jpg" />
+						</td>
+						<td width="80" align="center" class="border-fff cell-style">
+							<img src="img/small02.jpg" />
+						</td>
+						<td width="80" align="center" class="border-fff cell-style">
+							<img src="img/small03.jpg" />
+						</td>
+						<td width="80" align="center" class="border-fff cell-style">
+							<img src="img/small04.jpg" />
+						</td>
+						<td width="80" align="center" class="border-fff cell-style">
+							<img src="img/small03.jpg" />
+						</td>
+					</tr>
+				</table>
+				<div class="marTop8">
+					<span class="share float_left"><span class="iconfont icon-fenxiang color-999"></span>分享</span>
+					<span class="share float_left"><span class="iconfont icon-shoucang color-999"></span>收藏商品(201人气)</span>
+					<span class="float_right share marRight20">举报</span>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="content-area float_left">
+				<div class="font16 marLeft12 fontW">正宗四川特产苦笋纯天然野生新鲜蔬菜苦竹笋嫩笋尖5斤农产品包邮</div>
+				<div style=" background-color: #eee; padding: 12px; margin-top: 12px;">
+					<dl>
+						<dt class="float_left">价格：</dt>
+						<dd class="float_left color-666 font12" style=" text-decoration: line-through;">¥98.00</dd>
+					</dl>
+					<div class="clearfix"></div>
+					<dl class="marTop8">
+						<dt class="float_left">促销价：</dt>
+						<dd class="font18 color-098400 float_left fontW">¥75.00</dd>
+					</dl>
+					<div class="clearfix"></div>
+					<dl class="marTop8">
+						<dt class="float_left">本店活动：</dt>
+						<dd class="color-098400 float_left">满1件，送3元店铺优惠券</dd>
+						<dd class=" float_right">更多优惠<span class="iconfont icon-xia"></span></dd>
+					</dl>
+					<div class="clearfix"></div>
+				</div>
+				<dl class="marTop8 marLeft12">
+					<dt class="float_left">运费：</dt>
+					<dd class="color-333 float_left">
+						<span class="padTop4">四川宜宾 至</span>
+						<select style=" margin-top: -4px;">
+							<option>北京</option>
+							<option>上海</option>
+							<option>广州</option>
+							<option>深圳</option>
+						</select>
+						<span>快递: 0.00</span>
+					</dd>
+				</dl>
+				<div class="clearfix"></div>
+				<ul class="amount">
+					<li>
+						<span class="color-999">月销量</span>
+						<span class="color-098400 fontW">260</span>
+					</li>
+					<li>
+						<span class="color-999">累计评价</span>
+						<span class="color-098400 fontW">267</span>
+					</li>
+					<li>
+						<span class="color-999">送天猫积分</span>
+						<span class="color-098400 fontW">13</span>
+					</li>
+				</ul>
+				<div class="clearfix"></div>
+				<!--<dl class="marTop24">
+					<dt class="float_left padTop4">规格：</dt>
+					<dd class="float_left">
+						<ul class="condition-vary">
+							<li class="condition-vary-active">5KG</li>
+							<li>8KG</li>
+						</ul>
+					</dd>					
+					<div class="clearfix"></div>
+				</dl>
+				<div class="clearfix"></div>
+				<dl class="marTop8">
+					<dt class="float_left padTop4">支付类型：</dt>
+					<dd class="float_left">
+						<ul class="condition-vary">
+							<li class="condition-vary-active">全价</li>
+							<li>分期三月</li>
+						</ul>
+					</dd>	
+					<div class="clearfix"></div>
+				</dl>
+				<div class="clearfix"></div>-->
+				<dl class="marTop24 marLeft12">
+					<dt class="float_left padTop8">购买数量：</dt>
+					<dd>
+						<input type="text" class="num-input float_left" value="1" />
+						<div class="float_left marLeft4">
+							<div style=" height: 13px; line-height: 13px; border: 1px solid #ddd;">
+								<span class="iconfont icon-you"></span>
+							</div>
+							<div style=" margin-top: 2px; height: 13px; line-height: 13px; border: 1px solid #ddd;">
+								<span class="iconfont icon-xia color-ddd"></span>
+							</div>
+						</div>
+						<div class="float_left color-999 marLeft20 padTop8">库存20个</div>
+						<div class="clearfix"></div>
+					</dd>
+					<div class="clearfix"></div>
+				</dl>
+				<div class="marTop40 marLeft12">
+					<a href="#" class="get-in">加入购物车</a>
+				</div>
+				<dl class="marTop8 marLeft12 marTop24">
+					<dt class="float_left">服务承诺：</dt>
+					<dd class="float_left marRight20">正品保证</dd>
+					<dd class=" float_left marRight20">急速退款</dd>
+					<dd class=" float_left marRight20">赠运费险</dd>
+					<dd class=" float_left marRight20">七天无理由退换</dd>
+				</dl>
+				<div class="clearfix"></div>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="content-down">
+			<div class="content-down-left float_left">
+				<div class="content-down-left-title">相似产品</div>
+				<dl class="goods-list">
+					<dt>
+						<img src="img/goods02.jpg" style=" display: inline; width: 160px; height: 160px;">
+					</dt>
+					<dd>正宗四川特产苦笋纯天然野生5斤农产品包邮</dd>
+					<dd>¥58.00</dd>
+				</dl>
+				<dl class="goods-list">
+					<dt>
+						<img src="img/goods02.jpg" style=" display: inline; width: 160px; height: 160px;">
+					</dt>
+					<dd>正宗四川特产苦笋纯天然野生5斤农产品包邮</dd>
+					<dd>¥58.00</dd>
+				</dl>
+			</div>
+			<div class="content-down-right float_right">
+				<ul class="content-down-condition">
+					<li class="content-down-condition-active">商品参数</li>
+					<li>累计评价</li>					
+					<!--<li>包装清单</li>
+					<li>物流配送</li>
+					<li>售后保障</li>-->
+					<div class="clearfix"></div>
+				</ul>
+				<div class="goods-list-each">
+					<span class=" color-999">产品参数：</span>
+					<div class="clearfix"></div>
+					<span>品类：苦笋</span>
+					<span>品名：野生苦笋</span>
+					<span>净含量：500g</span>
+					<div class="clearfix"></div>
+					<span>包装方式：散装</span>
+					<span>生产日期：4月 5月 6月 7月</span>
+					<span>口感：微带苦味</span>
+					<div class="clearfix"></div>					
+					<span>储存：避光冷藏</span>
+					<span>产地：中国大陆</span>
+					<span>数量/重量：500g</span>
+					<div class="clearfix"></div>
+					<span>单位：散装</span>
+					<!--<span>价格：生晒参/白参</span>-->
+					<div class="clearfix"></div>		
+				</div>
+				<div class="goods-list-introduce">
+					<img src="img/goods02.jpg" />
+					<img src="img/goods08.jpg" />
+				</div>				
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		
+<!--------------foot底部---------------->
+<!--footer上面的-->
+		<div class="foot_box">
+			<div class="foot_box1">
+				<div class="foot_box1_all">
+					<ul class="foot_box1_ul">
+						<li>
+							<img src="images/foot1.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot2.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot3.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot_box2">
+				<div class="foot_box2_left fl">
+					<dl>
+						<dt>
+							平台规则
+						</dt>
+						<dd>
+							<a href="">购买规则</a>
+						</dd>
+						<dd>
+							<a href="">积分细则
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							操作演示
+						</dt>
+						<dd>
+							<a href="">我要买</a>
+						</dd>
+						<dd>
+							<a href="">我要卖</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							加入我们
+						</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">人才招聘</a>
+						</dd>
+						<dd>
+							<a href="">联系我们</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							常见问题
+						</dt>
+						<dd>
+							<a href="">如何成为平台会员</a>
+						</dd>
+						<dd>
+							<a href="">如何成为商家</a>
+						</dd>
+						<dd>
+							<a href="">如何修改密码</a>
+						</dd>
+						<dd>
+							<a href="">进入帮助中心</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="foot_box2_right fr">
+					<div class="kefu fl">
+						<h2>客服电话：</h2>
+						<br />
+						<span>400-877-5151</span>
+						<br />
+						<a class="mt10 qq_a" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=换成你的qq号码&site=qq&menu=yes"><img border="0" src="images/QQ.jpg" /></a>
+					</div>
+					<div class="weixin_pic fr">
+						<img src="images/erweima.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="footer_all">
+				<ul class="yq_link">
+					<li>
+						<a href="">关于我们</a>
+					</li>
+					<li>
+						<a href="">网站公告</a>
+					</li>
+					<li>
+						<a href="">产品服务</a>
+					</li>
+					<li>
+						<a href="">商家入驻</a>
+					</li>
+					<li>
+						<a href="">交易流程</a>
+					</li>
+					<li>
+						<a href="">人才招聘</a>
+					</li>
+					<li>
+						<a href="">联系我们</a>
+					</li>
+					<li>
+						<a href="">友情链接</a>
+					</li>
+				</ul>
+				<p>
+					Copyright © 2016 NiPic.com All Rights Reserved　版权所有·农联云商
+				</p>
+				<p>
+					农联云商是网络服务平台方，若您发现您的权利被侵害，请发起知识产权投诉，copyright@nipic.com
+				</p>
+				<p><img src="images/foot_bg.jpg">
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

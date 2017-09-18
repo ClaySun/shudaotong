@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>云纺城门户</title>
+		<link rel="stylesheet" href="./css/header_footer.css" />
+		<link rel="stylesheet" href="./css/style2.css" />
+		<link rel="stylesheet" href="css/mycss.css" />
+		<link rel="stylesheet" href="./css/style.css" />
+		<link rel="stylesheet" href="./css/iconfont.css" />
+		<script type="text/javascript" src="./js/jquery.js" ></script>
+		<script type="text/javascript" src="./js/myscript1.js" ></script>
+	</head>
+	<body>
+<!--header-->
+		<div class="header">
+			<div class="top_info">
+				<div class="container clearfix">
+					<div class="top_l">
+						<span><a href="login.html">登录</a>|<a href="register.html">注册</a></span>
+						欢迎访问-农联云商
+					</div>
+					<ul class="top_r clearfix">
+						<li>
+							<a href="buyer.html">我的平台</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="seller.html">卖家中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="account-zijin.html">账户管理</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="cjwt.html">帮助中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="#">我的提醒<i class="xia"></i></a>
+							<div class="tixing">
+								<a href="seller.html">卖家提醒</a>
+								<a href="buyer.html">买家提醒</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom_info clearfix">
+				<h1 class="logo_img"><a href="index.html"><img src="images/logo.png" title="云纺城" alt="云纺城"/></a></h1>
+				<div class="search">
+					<div class="search_box">
+						<i class="search_icon"></i>
+						<input type="text" class="search_input"/>
+						<input type="button" class="search_btn" value="搜 索"/>
+					</div>
+					<!--<p>
+						<em>热门搜索：</em> 全棉&nbsp;T/C混纺&nbsp;CVC混纺&nbsp;棉涤/涤棉交织&nbsp;棉锦/锦棉交织
+					</p>-->
+				</div>
+				<div class="cartDiv">
+					<p>
+						客服电话：400-xxxx-xxx
+					</p>
+					<a href="gouwuche.html" class="cart clearfix">购物车<img class="fr" src="images/about_four.png"><em style="margin-right: 10px;" class="fr">(0)</em></a>
+					<!--<p class="gary">
+						交易时间： 8:30-16:30
+					</p>-->
+				</div>
+			</div>
+		</div>	
+		<!----------上部结束！----------->	
+		<div class="nav">
+			<dl class="nav-content">
+				<dd><a href="index.html">首页</a></dd>
+				<dd><a href="sp_list.html">一县一品</a></dd>
+				<dd  style="display:block; background: #296f1f;"><a href="goods-list.html">商城</a></dd>
+				<dd><a href="#">供应链金融</a></dd>
+				<dd><a href="#">物流</a></dd>
+				<div class="clearfix"></div>
+			</dl>
+		</div>
+	<!------------下部内容------------->
+		<!--条件筛选-->
+		<div class="conditions-select">
+			<dl class="float_left">
+				<dt>已选条件：</dt>
+				<dd>
+					<ul>
+						
+					</ul>
+				</dd>
+			</dl>
+			<div class="cancel" onclick="location.reload('good-list.html')">全部撤销</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="conditions">
+			<dl>
+				<dt>品牌：</dt>
+				<dd>
+					<ul>						
+						<li>长白山</li>
+						<li>阳一</li>
+						<li>祥奕</li>
+						<li>合成恒</li>
+						<li>老谷头</li>
+						<li>小土哥</li>
+						<li>万河</li>
+						<li>林岛</li>
+						<li>池宝</li>
+						<li>一庆堂</li>
+						<li>中吉珍宝</li>
+						<li>长白山</li>
+						<li>阳一</li>
+						<li>祥奕</li>
+						<li>合成恒</li>
+						<li>老谷头</li>
+						<li>小土哥</li>
+						<li>万河</li>
+						<li>林岛</li>
+						<li>池宝</li>
+						<li>一庆堂</li>
+						<li>中吉珍宝</li>
+					</ul>
+					<div class="clearfix"></div>
+				</dd>
+				<div class="clearfix"></div>
+			</dl>
+			<div class="clearfix"></div>
+			<dl>
+				<dt>参种类：</dt>
+				<dd>					
+					<ul>
+						<li>鲜人参</li>
+						<li>白参</li>
+						<li>移山参</li>
+						<li>红参</li>
+						<li>野山参</li>
+						<li>人参花</li>
+					</ul>
+				</dd>
+				<div class="clearfix"></div>
+			</dl>
+			<div class="clearfix"></div>
+			<dl>
+				<dt>特产品类：</dt>
+				<dd>
+					<ul>						
+						<li>抚松人参</li>
+						<li>集安边条参</li>
+						<li>桓仁山参</li>
+						<li>大兴安岭掌参</li>
+						<li>金堂明参</li>
+					</ul>
+					<div class="clearfix"></div>
+				</dd>
+				<div class="clearfix"></div>
+			</dl>
+			<div class="clearfix"></div>
+			<dl class="hide-area">
+				<dt>参茸滋补：</dt>
+				<dd>
+					<ul>						
+						<li>人参/园参</li>
+						<li>山参</li>
+						<li>西洋参</li>
+						<li>高丽参</li>
+					</ul>
+					<div class="clearfix"></div>
+				</dd>
+				<div class="clearfix"></div>
+			</dl>
+			<div class="clearfix"></div>
+			<dl class="hide-area">
+				<dt>筛选条件：</dt>
+				<dd>
+					<ul>						
+						<li>保健滋补医药器械</li>
+						<li>相关分类</li>
+					</ul>
+					<div class="clearfix"></div>
+				</dd>
+				<div class="clearfix"></div>
+			</dl>
+			<div class="clearfix"></div>
+			<div class="more-less">
+				<span id="show">展开</span>
+				<span id="hide">收起</span>
+			</div>
+		</div>
+		<!--实惠拍卖-->
+		<div class="shihui_paimai">
+			<!--筛选-->
+			<div class="change_all">
+				<span class="change1 fl">默认排序</span>
+				<div class="change_select fl">
+					<select>
+						<option>价格(由低到高)</option>
+						<option>价格(由高到低)</option>
+					</select>
+				</div>
+				<span class="change2 change3 fl">
+					<select>
+						<option>销量(由低到高)</option>
+						<option>销量(由高到低)</option>
+					</select> </span>
+				<div class="change_page fr">
+					<span>共400条信息</span>
+					<span>1/66</span>
+					<button>
+						<
+					</button>
+					<button>
+						>
+					</button>
+				</div>
+			</div>
+			<!--筛选-->
+			<!--列表-->
+			<div class="lbg_list_all">
+				<ul class="lbg_list_ul">
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods01.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>							
+						</dl>
+					</li>
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods02.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods03.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods04.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods05.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<div class="lbg_list_all">
+				<ul class="lbg_list_ul">
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods06.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>							
+						</dl>
+					</li>
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods07.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods08.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+					<li class="marRight20">
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods09.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl class="goods-content">
+							<dt>
+								<img src="img/goods10.jpg"/>
+							</dt>
+							<dd class="marTop12">
+								<div class="float_left">
+									<span>¥48.00</span>
+									<span class="post">包邮</span>
+								</div>
+								<div class="float_right color-999 font12">
+									17人付款
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+							<dd>
+								<a href="goods-detail.html" class="font12"> 人参 单支装 长白山人参 生晒参白参须 泡酒原料</a>
+							</dd>
+							<dd>
+								<div class="float_left">
+									<a href="#" class="color-999 font12">晟海祥旗舰店</a>
+								</div>
+								<div class="float_right color-999 font12">
+									江苏 南京
+								</div>
+								<div class="clearfix"></div>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+			<!--列表-->
+			<!--分页-->
+			<div class="pagebar">
+				<div class="total fl">
+					共665条记录，每页最多显示10条
+				</div>
+				<div class="total_right fr">
+					<ul class="total_ul fl">
+						<span class="first_span fl">第一页</span>
+						<li>
+							<a href="">1</a>
+						</li>
+						<li>
+							<a href="">2</a>
+						</li>
+						<li>
+							<a href="">3</a>
+						</li>
+						<li>
+							<a href="">4</a>
+						</li>
+						<li>
+							<a href="">5</a>
+						</li>
+						<span class="last_span fl">最后一页</span>
+					</ul>
+					<span class="total_span fl">共67页</span>
+					<span class="jump_span fl">跳转
+						<input type="text">
+						页</span>
+				</div>
+			</div>
+			<!--分页-->
+		</div>
+		<!--实惠拍卖-->
+<!--------------foot底部---------------->
+<!--footer上面的-->
+		<div class="foot_box">
+			<div class="foot_box1">
+				<div class="foot_box1_all">
+					<ul class="foot_box1_ul">
+						<li>
+							<img src="images/foot1.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot2.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot3.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot_box2">
+				<div class="foot_box2_left fl">
+					<dl>
+						<dt>
+							平台规则
+						</dt>
+						<dd>
+							<a href="">购买规则</a>
+						</dd>
+						<dd>
+							<a href="">积分细则
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							操作演示
+						</dt>
+						<dd>
+							<a href="">我要买</a>
+						</dd>
+						<dd>
+							<a href="">我要卖</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							加入我们
+						</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">人才招聘</a>
+						</dd>
+						<dd>
+							<a href="">联系我们</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							常见问题
+						</dt>
+						<dd>
+							<a href="">如何成为平台会员</a>
+						</dd>
+						<dd>
+							<a href="">如何成为商家</a>
+						</dd>
+						<dd>
+							<a href="">如何修改密码</a>
+						</dd>
+						<dd>
+							<a href="">进入帮助中心</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="foot_box2_right fr">
+					<div class="kefu fl">
+						<h2>客服电话：</h2>
+						<br />
+						<span>400-877-5151</span>
+						<br />
+						<a class="mt10 qq_a" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=换成你的qq号码&site=qq&menu=yes"><img border="0" src="images/QQ.jpg" /></a>
+					</div>
+					<div class="weixin_pic fr">
+						<img src="images/erweima.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="footer_all">
+				<ul class="yq_link">
+					<li>
+						<a href="">关于我们</a>
+					</li>
+					<li>
+						<a href="">网站公告</a>
+					</li>
+					<li>
+						<a href="">产品服务</a>
+					</li>
+					<li>
+						<a href="">商家入驻</a>
+					</li>
+					<li>
+						<a href="">交易流程</a>
+					</li>
+					<li>
+						<a href="">人才招聘</a>
+					</li>
+					<li>
+						<a href="">联系我们</a>
+					</li>
+					<li>
+						<a href="">友情链接</a>
+					</li>
+				</ul>
+				<p>
+					Copyright © 2016 NiPic.com All Rights Reserved　版权所有·农联云商
+				</p>
+				<p>
+					农联云商是网络服务平台方，若您发现您的权利被侵害，请发起知识产权投诉，copyright@nipic.com
+				</p>
+				<p><img src="images/foot_bg.jpg">
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

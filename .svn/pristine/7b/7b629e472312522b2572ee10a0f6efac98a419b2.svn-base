@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商铺列表</title>
+		<link rel="stylesheet" href="css/header_footer.css" />
+		<link rel="stylesheet" href="css/mycss.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<!------商铺列表------->
+		<link rel="stylesheet" href="css/lrtk.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/mosaic.1.0.1.js"></script>
+	</head>
+	<body>
+	<!--header-->
+		<div class="header">
+			<div class="top_info">
+				<div class="container clearfix">
+					<div class="top_l">
+						<span><a href="login.html">登录</a>|<a href="register.html">注册</a></span>
+						欢迎访问-农联云商
+					</div>
+					<ul class="top_r clearfix">
+						<li>
+							<a href="buyer.html">我的平台</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="seller.html">卖家中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="account-zijin.html">账户管理</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="cjwt.html">帮助中心</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+						<li>
+							|
+						</li>
+						<li>
+							<a href="#">我的提醒<i class="xia"></i></a>
+							<div class="tixing">
+								<a href="seller.html">卖家提醒</a>
+								<a href="buyer.html">买家提醒</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom_info clearfix">
+				<h1 class="logo_img"><a href="index.html"><img src="images/logo.png" title="云纺城" alt="云纺城"/></a></h1>
+				<div class="search">
+					<div class="search_box">
+						<i class="search_icon"></i>
+						<input type="text" class="search_input"/>
+						<input type="button" class="search_btn" value="搜 索"/>
+					</div>
+					<!--<p>
+						<em>热门搜索：</em> 全棉&nbsp;T/C混纺&nbsp;CVC混纺&nbsp;棉涤/涤棉交织&nbsp;棉锦/锦棉交织
+					</p>-->
+				</div>
+				<div class="cartDiv">
+					<p>
+						客服电话：400-648-1668
+					</p>
+					<a href="gouwuche.html" class="cart clearfix">购物车<img class="fr" src="images/about_four.png"><em style="margin-right: 10px;" class="fr">(0)</em></a>
+					<!--<p class="gary">
+						交易时间： 8:30-16:30
+					</p>-->
+				</div>
+			</div>
+		</div>	
+		<!----------上部结束！----------->	
+		<div class="nav">
+			<dl class="nav-content">
+				<dt><span><a href="#">全部></a></span>特色大全</dt>
+				<dd><a href="index.html">首页</a></dd>
+				<dd style="display:block; background: #296f1f;"><a href="sp_list.html">一县一品</a></dd>
+				<dd><a href="goods-list.html">商城</a></dd>
+				<dd><a href="#">供应链金融</a></dd>
+				<dd><a href="#">物流</a></dd>
+				<div class="clearfix"></div>
+			</dl>
+		</div>
+	<!------------下部内容------------->
+		<div class="cedao_zong">
+<div class="hc_lnav jslist">
+	<div class="allbtn">
+		<h2><a href="#"></a></h2>
+		<ul style="width:200px" class="jspop box11">
+			<li class="a1">
+				<div class=tx><a href="#"><i>&nbsp;</i>肉禽蛋品</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="#">土鸡蛋</a>
+						<a href="#">腊肠</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="#">肉禽蛋品</a></h3>
+						<dl>
+							<dt>蛋品类</dt>
+							<dd>
+								<a class="ui-link" href="#">土鸡蛋</a>
+								<a class="ui-link"  href="#">其他蛋品</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>活禽类</dt>
+							<dd>
+								<a class="ui-link" href="">农家土鸡</a> 
+								<a class="ui-link"  href="">农家土鸭</a>
+								<a class="ui-link" href="">野禽类</a>
+								<a class="ui-link"  href="">飞禽类</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>猪牛羊肉</dt>
+							<dd>
+								<a class="ui-link" href="">四川猪肉</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>腌腊制品</dt>
+							<dd>
+								<a class="ui-link" href="">腊肉</a> 
+								<a class="ui-link" href="">腊肠</a>
+							</dd>
+						</dl>
+				</div>
+			</li>
+			<li class="a2">
+				<div class=tx><a href=""><i>&nbsp;</i>生鲜果蔬</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">花菜</a> 
+						<a href="">菌菇</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">生鲜果蔬</a></h3>
+						<dl>
+							<dt>蔬菜</dt>
+							<dd>
+								<a class="#" href="" >花菜类   </a>
+								<a class="#" href="">茄果类</a> 
+								<a class="#" href="">叶菜类</a> 
+								<a class="#" href="">根茎类 </a>
+								<a class="#" href="">豆角类 </a>
+								<a class="#" href="">瓜类</a> 
+								<a class="#" href="">香辛·葱姜</a> 
+								<a class="#" href="">菌菇类</a> 
+							</dd>
+						</dl>
+						<dl>
+							<dt>水果</dt>
+							<dd>
+								<a class="ui-link" href="" >四川水果</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>水产海鲜</dt>
+							<dd>
+								<a class="ui-link" href="" >河鲜</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>礼盒.礼券</dt>
+							<dd>
+								<a class="ui-link" href="" >瓜果蔬菜</a>
+							</dd>
+														<dd>
+								<a class="ui-link" href="" >水产海鲜</a>
+							</dd>
+						</dl>
+				</div>
+			</li>
+			<li class="a3">
+				<div class=tx><a href=""><i>&nbsp;</i>特产土货</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="" >茶叶</a> 
+						<a href="">干货</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">特产土货</a></h3>
+						<dl>
+							<dt>绿色土产</dt>
+							<dd>
+								<a class="ui-link" href="">天麻</a>
+								<a class="ui-link"  href="">西洋参</a> 
+								<a class="ui-link" href="" >菌菇类</a>
+								<a class="ui-link"  href="">其他干货</a>
+							</dd>
+						</dl>
+					
+					<dl>
+						<dt>茶叶保健</dt>
+						<dd>
+							<a  href="">蜂蜜</a>
+							<a  href="">茶叶</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>糖酒饮料特产</dt>
+						<dd>
+							<a  href="">饮料</a>
+							<a  href="">酒水</a>
+						</dd>
+					</dl>
+				</div>
+			</li>
+			<li class=a4>
+				<div class=tx><a href=""><i>&nbsp;</i>五谷杂粮</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">大米</a>
+						<a   href="">杂粮</a>
+						<a  href="">大豆油</a> 
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">五谷杂粮</a></h3>
+						<dl>
+							<dt>米面杂粮</dt>
+							<dd>
+								<a class="ui-link" href="">大米</a>
+								<a class="ui-link"   href="">杂粮</a>
+								<a  class="un ui-link" href="">面条.米粉</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>食用油</dt>
+							<dd>
+								<a class="ui-link"  href="">大豆油</a>
+								<a class="ui-link"  href="">菜籽油</a> 
+								<a class="ui-link" href="javascript:;">其他油类</a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>调味剂</dt>
+							<dd>
+								<a class="ui-link"  href="">酱油</a>
+								<a class="ui-link"  href="">香辛料</a> 
+								<a class="ui-link" href="javascript:;">糖盐淀粉</a>
+							</dd>
+						</dl>
+					
+				</div>
+			</li>
+			<li class="a5">
+				<div class=tx><a href=""><i>&nbsp;</i>营养食品</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">滋补养生</a>
+						<a   href="">糖果</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">营养食品</a></h3>
+						<dl>
+							<dt>滋补养生</dt>
+							<dd>
+								<a class="ui-link" href=""></a>
+								<a class="ui-link"   href=""></a>
+								<a  class="un ui-link" href=""></a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>糖果果干</dt>
+							<dd>
+								<a class="ui-link"  href=""></a>
+								<a class="ui-link"  href=""></a> 
+								<a class="ui-link" href="javascript:;"></a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>休闲食品</dt>
+							<dd>
+								<a class="ui-link"  href=""></a>
+								<a class="ui-link"  href=""></a> 
+								<a class="ui-link" href="javascript:;"></a>
+							</dd>
+						</dl>
+					
+				</div>
+			</li>
+			<li class="a6">
+				<div class=tx><a href=""><i>&nbsp;</i>其他辅食</a> </div>
+				<dl>
+					<dt>推荐</dt>
+					<dd>
+						<a href="">滋补养生</a>
+						<a   href="">糖果</a>
+					</dd>
+				</dl>
+				<div class=pop>
+					<h3><a href="">营养食品</a></h3>
+						<dl>
+							<dt>滋补养生</dt>
+							<dd>
+								<a class="ui-link" href=""></a>
+								<a class="ui-link"   href=""></a>
+								<a  class="un ui-link" href=""></a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>糖果果干</dt>
+							<dd>
+								<a class="ui-link"  href=""></a>
+								<a class="ui-link"  href=""></a> 
+								<a class="ui-link" href="javascript:;"></a>
+							</dd>
+						</dl>
+						<dl>
+							<dt>休闲食品</dt>
+							<dd>
+								<a class="ui-link"  href=""></a>
+								<a class="ui-link"  href=""></a> 
+								<a class="ui-link" href="javascript:;"></a>
+							</dd>
+						</dl>
+					
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>	
+</div>
+<!--实惠拍卖-->
+<div class="shihui_paimai">
+  
+   
+    <!--筛选-->
+     <div class="change_all">
+     	<div class="shopInput fl">
+     		<div class="shopInput1 fl">
+     			<input type="text" placeholder="请输入商铺名称" />
+     			<button class="shopSearch"></button> 
+     		</div>
+     		<div class="shopInput1 fl">
+     			<input type="text" placeholder="请输入主营产品"/>
+     			<button class="shopSearch"></button> 
+     		</div>
+     	</div>
+     	<div class="change_page fr">
+     		<span>共400条信息</span>
+     		<span>1/66</span>
+     		<button><</button>
+     		<button>></button>
+     	</div>
+     </div>
+     <!--筛选-->
+     
+     <!--列表-->
+      <div class="lbg_list_all1">
+      	<ul class="lbg_list_ul1">
+<!--      		<li>
+      			<a href="../shop/shop1.html" target="_blank">
+      				<span class="logo_span"><img src="../images/lbg_logo.jpg"></span>
+      				<span class="diqu_span"><i><img src="../images/lbg_icon_1.jpg">商铺名称：</i>孙麒麟黑店</span>
+      				<span class="product_span"><i><img src="../images/lbg_icon_2.jpg">主销产品：</i>红色布料</span>	
+      				<span class="number_span"><i><img src="../images/lbg_icon_3.jpg">供应量：</i>20000米</span>
+      				<em class="link_em">进入旗舰店</em>
+      			</a>
+      			<i class="lbg_icon">量大优惠</i>
+      		</li>-->
+      		<li>
+      			<div class="mosaic-block bar">
+                    <a href="sp_xx.html"  class="mosaic-overlay">
+                        <div class="details">
+                            <h4>进入旗舰店</h4>
+                        </div>
+                    </a>
+                    <div class="mosaic-backdrop">
+                    	<span class="logo_span"><img src="images/tu1.jpg"></span>
+      				    <span class="diqu_span"><i><img src="images/lbg_icon_1.jpg">地区分布：</i>成都</span>
+      				    <span class="product_span"><i><img src="images/lbg_icon_2.jpg">主销产品：</i>茶冲饮 粮油调味</span>	
+      				    <span class="number_span"><i><img src="images/lbg_icon_3.jpg">供应量：</i>2000箱</span>
+      				    
+                    </div>
+                </div>
+      		</li>	
+            <li>
+      			<div class="mosaic-block bar">
+                    <a href="sp_xx.html" class="mosaic-overlay">
+                        <div class="details">
+                            <h4>进入旗舰店</h4>
+                        </div>
+                    </a>
+                    <div class="mosaic-backdrop">
+                    	<span class="logo_span"><img src="images/tu1.jpg"></span>
+      				    <span class="diqu_span"><i><img src="images/lbg_icon_1.jpg">地区分布：</i>川东北</span>
+      				    <span class="product_span"><i><img src="images/lbg_icon_2.jpg">主销产品：</i>茶冲饮 粮油调味</span>	
+      				    <span class="number_span"><i><img src="images/lbg_icon_3.jpg">供应量：</i>2000箱</span>
+      				    
+                    </div>
+                </div>
+      		</li>	
+            <li>
+      			<div class="mosaic-block bar">
+                    <a href="sp_xx.html" class="mosaic-overlay">
+                        <div class="details">
+                            <h4>进入旗舰店</h4>
+                        </div>
+                    </a>
+                    <div class="mosaic-backdrop">
+                    	<span class="logo_span"><img src="images/tu1.jpg"></span>
+      				    <span class="diqu_span"><i><img src="images/lbg_icon_1.jpg">地区分布：</i>川西北</span>
+      				    <span class="product_span"><i><img src="images/lbg_icon_2.jpg">主销产品：</i>茶冲饮 粮油调味</span>	
+      				    <span class="number_span"><i><img src="images/lbg_icon_3.jpg">供应量：</i>2000箱</span>
+      				    
+                    </div>
+                </div>
+      		</li>	      		
+            <li>
+      			<div class="mosaic-block bar">
+                    <a href="sp_xx.html" class="mosaic-overlay">
+                        <div class="details">
+                            <h4>进入旗舰店</h4>
+                        </div>
+                    </a>
+                    <div class="mosaic-backdrop">
+                    	<span class="logo_span"><img src="images/tu1.jpg"></span>
+      				    <span class="diqu_span"><i><img src="images/lbg_icon_1.jpg">地区分布：</i>攀西</span>
+      				    <span class="product_span"><i><img src="images/lbg_icon_2.jpg">主销产品：</i>茶冲饮 粮油调味</span>	
+      				    <span class="number_span"><i><img src="images/lbg_icon_3.jpg">供应量：</i>2000箱</span>
+      				    
+                    </div>
+                </div>
+      		</li>	
+	      		
+      	</ul>
+      </div>
+     
+      <script type="text/javascript" src="js/lrtk.js">  </script>
+      <!--列表-->
+      <!--分页-->
+       <div class="pagebar">
+       	 <div class="total fl">
+       	 	共665条记录，每页最多显示10条
+       	 </div>
+       	 <div class="total_right fr">
+       	 	<ul class="total_ul fl">
+       	 		<span class="first_span fl">第一页</span>
+       	 		<li><a href="">1</a></li>
+       	 		<li><a href="">2</a></li>
+       	 		<li><a href="">3</a></li>
+       	 		<li><a href="">4</a></li>
+       	 		<li><a href="">5</a></li>
+       	 		<span class="last_span fl">最后一页</span>
+       	 	</ul>
+       	 	<span class="total_span fl">共67页</span>
+       	 	<span class="jump_span fl">跳转<input type="text">页</span>
+       	 </div>
+       </div>
+      <!--分页-->
+ </div>  
+ 
+<!--实惠拍卖-->
+<!--------------foot底部---------------->
+<!--footer上面的-->
+		<div class="foot_box">
+			<div class="foot_box1">
+				<div class="foot_box1_all">
+					<ul class="foot_box1_ul">
+						<li>
+							<img src="images/foot1.png">
+							<span>货真价实</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot2.png">
+							<span>消费者保障</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+						<li>
+							<img src="images/foot3.png">
+							<span>农联特色</span>
+							<p>
+								价格，库存真实有效，杜绝虚假交易
+							</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="foot_box2">
+				<div class="foot_box2_left fl">
+					<!--<dl>
+						<dt>
+							平台规则
+						</dt>
+						<dd>
+							<a href="">购买规则</a>
+						</dd>
+						<dd>
+							<a href="">积分细则
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							操作演示
+						</dt>
+						<dd>
+							<a href="">我要买</a>
+						</dd>
+						<dd>
+							<a href="">我要卖</a>
+						</dd>
+					</dl>-->
+					<dl>
+						<dt>
+							帮助中心
+						</dt>
+						<dd>
+							<a href="">如何成为平台会员</a>
+						</dd>
+						<dd>
+							<a href="">如何修改密码</a>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							联系我们
+						</dt>
+						<dd>
+							<a href="">关于我们</a>
+						</dd>
+						<dd>
+							<a href="">加入我们</a>
+						</dd>
+					</dl>
+				</div>
+				<div class="foot_box2_right fr">
+					<div class="kefu fl">
+						<h2>客服电话：</h2>
+						<br />
+						<span>400-648-1668</span>
+						<br />
+						<a class="mt10 qq_a" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=换成你的qq号码&site=qq&menu=yes"><img border="0" src="images/QQ.jpg" /></a>
+					</div>
+					<div class="weixin_pic fr">
+						<img src="images/erweima.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--footer-->
+		<div class="footer">
+			<div class="footer_all">
+				<ul class="yq_link">
+					<li>
+						<a href="">关于我们</a>
+					</li>
+					<li>
+						<a href="">网站公告</a>
+					</li>
+					<!--<li>
+						<a href="">产品服务</a>
+					</li>
+					<li>
+						<a href="">商家入驻</a>
+					</li>
+					<li>
+						<a href="">交易流程</a>
+					</li>-->
+					<li>
+						<a href="">人才招聘</a>
+					</li>
+					<li>
+						<a href="">联系我们</a>
+					</li>
+					<!--<li>
+						<a href="">友情链接</a>
+					</li>-->
+				</ul>
+				<p>
+					Copyright © 2016 NiPic.com All Rights Reserved　版权所有·农联云商
+				</p>
+				<p>
+					农联云商是网络服务平台方，若您发现您的权利被侵害，请发起知识产权投诉，copyright@nipic.com
+				</p>
+				<p><img src="images/foot_bg.jpg">
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
